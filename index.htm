@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="gbk">
     <title>input模拟</title>
     <script type="text/javascript" src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
-    <script type="text/javascript" src="./js/input.js"></script>
 </head>
 <body>
 <style type="text/css">
@@ -12,19 +11,33 @@
         height: 1000px;
     }
 
-    .input-wrap {
-        margin-top: 500px;
-        margin-left: 200px;
-        width: 200px;
-        height: 100px;
-        background: #369;
+    .weibo-wrap {
+        width: 122px;
+        height: 32px;
+        background: url("images/weibo.jpg") no-repeat;
     }
 
+    .quanzi-wrap {
+        width: 161px;
+        height: 40px;
+        background: url("images/quanzi.jpg") no-repeat;
+    }
+    
 </style>
-<div class="input-wrap">
-    <input type="file" size="1" class="input-test" hidefocus="true">
+<h3>微博按钮</h3>
+
+<div class="weibo-wrap" node-type="inputWrap">
+    <input type="file" class="input-test" size="1" hidefocus="true" style="display: none;">
+</div>
+<h3>圈子按钮</h3>
+<div class="quanzi-wrap" node-type="inputWrap">
+    <input type="file" class="input-test" size="1" hidefocus="true" style="display: none;">
 </div>
 
+<h3></h3>
 <script type="text/javascript" src="./js/input.js"></script>
+<!--<script type="text/javascript">-->
+<!--KISSY.getScript('http://assets.daily.taobao.net/p/snsdk/src/widget/input.js');-->
+<!--</script>-->
 </body>
 </html>
