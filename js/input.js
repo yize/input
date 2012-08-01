@@ -1,3 +1,8 @@
+/*
+*  fileOverView:¼æÈÝÖ÷Á÷ä¯ÀÀÆ÷µÄinput:file
+ * author:yize.shc@gmail.com
+ * date:2012/8/1
+ * */
 KISSY.ready(function (S) {
     var D = S.DOM, E = S.Event;
     var inputClass = '.input-test',
@@ -23,4 +28,4 @@ KISSY.ready(function (S) {
             D.css(input, {left:left - width + 17, top:top - 12});
         }
     })
-})
+});
