@@ -33,6 +33,8 @@
 
 ```js
 <script type="text/javascript" src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+<script type="text/javascript" src="./js/input.js"></script>
+
 ```
 
 KISSY的版本为1.1.6+
