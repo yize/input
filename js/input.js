@@ -18,7 +18,7 @@
         });
 
         D.css(inputWrap, {'cursor':'pointer', 'overflow':'hidden'});
-        D.css(input, {'cursor':'pointer', 'position':'absolute', 'width':'100', 'margin':'0', 'filter':'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)', 'opacity':'0', 'clip':'rect(9px,86px,15px,80px)','display':'block'});
+        D.css(input, {'cursor':'pointer', 'position':'absolute', 'width':'100', 'margin':'0', /*'filter':'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)', 'opacity':'0',*/'clip':'rect(9px,86px,15px,80px)','display':'block'});
         D.attr('hidefocus', 'true');
 
         E.on(inputWrap, 'mousemove', function (ev) {
@@ -31,6 +31,8 @@
             var top = ev.clientY + D.scrollTop(window) - offset.top;
             if (S.UA.ie) {
                 D.css(input, {left:left - width + 12, top:top - 12});
+            }else if(S.UA.firefox){
+                D.css(input,{left:left - width + 20, top:top - 12})
             } else {
                 D.css(input, {left:left - width + 17, top:top - 12});
             }
