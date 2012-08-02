@@ -17,7 +17,7 @@
 用法
 -----
 
-1.###HTML：
+###1.HTML：
 ```html
 <div class="" node-type="inputWrap">
     <input type="file" size="1" hidefocus="true" style="display: none;">
@@ -28,7 +28,7 @@
 
 并且给`input:file`增加这些属性:`size="1" hidefocus="true" style="display: none;"`
 
-2.###JavaScript
+###2.JavaScript
 ```js
 <script type="text/javascript" src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
 <script type="text/javascript" src="./js/input.js"></script>
