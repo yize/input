@@ -29,7 +29,7 @@
 并且给`input:file`增加这些属性:`size="1" hidefocus="true" style="display: none;"`
 
 ###2.JavaScript
-```js
+```html
 <script type="text/javascript" src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
 <script type="text/javascript" src="./js/input.js"></script>
 
@@ -39,7 +39,7 @@ KISSY的版本为`1.1.6+`
 
 js推荐使用异步引入的方式:
 
-```js
+```html
 <script type="text/javascript">
     KISSY.getScript('http://a.tbcdn.cn/apps/matrix-mission/js/input.js');
 </script>
