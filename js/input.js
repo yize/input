@@ -17,7 +17,7 @@ KISSY.ready(function (S) {
         });
 
         D.css(inputWrap, {'cursor':'pointer', 'overflow':'hidden'});
-        D.css(input, {'cursor':'pointer', 'position':'absolute', 'width':'100', 'margin':'0', 'filter':'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)', 'opacity':'0', 'clip':'rect(9px,86px,15px,80px)', 'display':'block', 'font':'13.333px/1.5px simsun', 'padding':0, 'height':'22px', 'border':'none'});
+        D.css(input, {'cursor':'pointer', 'position':'absolute', 'width':'100', 'margin':'0', 'filter':'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)', 'opacity':'0', 'clip':'rect(9px,86px,15px,78px)', 'display':'block', 'font':'13.333px/1.5px simsun', 'padding':0, 'height':'22px', 'border':'none'});
 
         E.on(inputWrap, 'mousemove', function (ev) {
             var currentTarget = ev.currentTarget;
