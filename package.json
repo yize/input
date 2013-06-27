@@ -1,0 +1,35 @@
+{
+  "name": "input",
+  "version": "0.1.0",
+  "description": "cross-browser input:file UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yize/input.git"
+  },
+  "keywords": [
+    "cross-browser",
+    "input"
+  ],
+  "author": {
+    "name": "yize",
+    "email": "yize.shc@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "05ed20616878d5276ddec6497587c084e0ee2daf",
+  "bugs": {
+    "url": "https://github.com/yize/input/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-copy": "~0.4.1"
+  }
+}

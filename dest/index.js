@@ -28,11 +28,11 @@ KISSY.ready(function (S) {
             var top = ev.clientY + D.scrollTop(window) - offset.top;
 
             if (S.UA.firefox) {
-                D.css(input, {left:left - width + 20, top:top - 12})
+                D.css(input, {left:left - width + 20, top:top - 12});
             } else {
                 D.css(input, {left:left - width + 16, top:top - 12});
             }
 
-        })
+        });
     });
 });
